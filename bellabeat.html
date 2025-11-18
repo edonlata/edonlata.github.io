@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Bellabeat Smart Device Analysis - Edon Lata</title>
+  <meta name="description" content="Bellabeat smart device usage analysis by Edon Lata">
+  <meta name="keywords" content="Bellabeat, data analysis, Fitbit, smart device, case study">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Edon Lata</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+          <h1 class="mb-2 mb-lg-0">Bellabeat Case Study</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Bellabeat Project</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+    
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+    
+        <div class="container" data-aos="fade-up">
+    
+          <div class="portfolio-details-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 5000 },
+                "slidesPerView": "auto",
+                "navigation": {
+                  "nextEl": ".swiper-button-next",
+                  "prevEl": ".swiper-button-prev"
+                },
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+    
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/bellabeat.jpg" alt="Bellabeat dashboard slide">
+              </div>
+            </div>
+    
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    
+          <div class="row justify-content-between gy-4 mt-4">
+    
+            <div class="col-lg-8" data-aos="fade-up">
+              <h2>Bellabeat Smart Device Wellness Analysis</h2>
+              <p>
+                This project explores how Bellabeat customers use their smart wellness devices, using
+                public Fitbit-style activity and sleep data. The goal was to identify patterns in user
+                behavior and suggest ways Bellabeat could increase engagement and product value.
+              </p>
+    
+              <h3>Steps I Took</h3>
+              <ul>
+                <li>Imported raw activity, sleep, and weight datasets and checked for structure and consistency.</li>
+                <li>Cleaned the data (removed duplicates, fixed date-time formats, handled missing values).</li>
+                <li>Joined daily activity and sleep tables to line up steps, calories, and sleep hours by user and date.</li>
+                <li>Created summary tables to compare usage patterns by weekday vs weekend and by activity level.</li>
+                <li>Built visualizations to show relationships between steps, active minutes, calories, and sleep.</li>
+              </ul>
+    
+              <h3>Key Insights</h3>
+              <ul>
+                <li>Users with higher step counts and active minutes tended to burn more calories but did not always sleep more.</li>
+                <li>Many users were more active on weekdays than weekends, suggesting routine-driven behavior.</li>
+                <li>Some users logged device usage inconsistently, which may signal drop-off or low engagement.</li>
+                <li>Health-focused reminders and coaching around sleep and daily activity could help users stay on track.</li>
+              </ul>
+    
+              <h3>Tools Used</h3>
+              <p>
+                Excel, R (tidyverse), data wrangling, descriptive statistics, and data visualization.
+              </p>
+    
+              <h3>Deliverables</h3>
+              <ul>
+                <li>Cleaned datasets combining activity and sleep information.</li>
+                <li>Summary tables comparing active minutes, calories, and sleep by weekday vs weekend.</li>
+                <li>Charts that highlight how activity levels connect to overall wellness behavior.</li>
+                <li>Slide deck with recommendations for Bellabeat’s marketing and product teams.</li>
+              </ul>
+    
+              <a class="btn btn-primary mt-3" href="assets/Projects/Capstone2.pptx" target="_blank">
+                Download Slides (Bellabeat)
+              </a>
+            </div>
+    
+            <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="portfolio-info">
+                <h3>Project Information</h3>
+                <ul>
+                  <li><strong>Category</strong>: Health & Wellness Analytics</li>
+                  <li><strong>Tools</strong>: Excel, R, Data Cleaning, Visualization</li>
+                  <li><strong>Course</strong>: Google Data Analytics Capstone</li>
+                </ul>
+              </div>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </section>
+      <!-- /Portfolio Details Section -->
+    
+    </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Edon Lata</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed using DevFolio template from BootstrapMade
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

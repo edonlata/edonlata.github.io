@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NCAA Basketball Data Analysis - Edon Lata</title>
+  <meta name="description" content="NCAA basketball data analysis project by Edon Lata">
+  <meta name="keywords" content="NCAA, basketball, data analysis, SQL, Excel">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Edon Lata</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">NCAA Basketball Data Analysis</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">NCAA Project</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- End Page Title -->
+  
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+  
+      <div class="container" data-aos="fade-up">
+  
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+  
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/ncaa.jpg" alt="Basketball and NCAA court">
+            </div>
+          </div>
+  
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+  
+        <div class="row justify-content-between gy-4 mt-4">
+  
+          <div class="col-lg-8" data-aos="fade-up">
+            <h2>NCAA Basketball Trends & Team Insights</h2>
+            <p>
+              This project looks at NCAA basketball data to understand scoring trends, efficiency,
+              and team performance. The goal was to practice working with sports data and highlight
+              patterns that could matter for coaching or scouting.
+            </p>
+  
+            <h3>Steps I Took</h3>
+            <ul>
+              <li>Imported game and team statistics into Excel and cleaned column names and data types.</li>
+              <li>Created calculated fields such as points per game, field goal percentage, and win percentage.</li>
+              <li>Built pivot tables to compare teams by conference, season, and offensive/defensive metrics.</li>
+              <li>Used charts to visualize relationships between scoring, shooting efficiency, and wins.</li>
+            </ul>
+  
+            <h3>Key Insights</h3>
+            <ul>
+              <li>Teams with higher effective field goal percentages generally had stronger win records.</li>
+              <li>Balanced teams (solid offense and defense) performed better than teams relying only on high scoring.</li>
+              <li>Free throws and turnovers often made the difference in close games.</li>
+              <li>Conference strength and schedule difficulty played a role in overall performance.</li>
+            </ul>
+  
+            <h3>Tools Used</h3>
+            <p>
+              Excel, pivot tables, calculated fields, and sports analytics concepts.
+            </p>
+  
+            <h3>Deliverables</h3>
+            <ul>
+              <li>Cleaned NCAA team and game statistics tables.</li>
+              <li>Pivot tables summarizing performance by team and conference.</li>
+              <li>Charts showing how shooting efficiency and defense relate to winning.</li>
+              <li>Presentation summarizing key takeaways for non-technical audiences.</li>
+            </ul>
+  
+            <a class="btn btn-primary mt-3" href="assets/Projects/Capstone3.pptx" target="_blank">
+              Download Slides (NCAA)
+            </a>
+          </div>
+  
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Sports Analytics</li>
+                <li><strong>Tools</strong>: Excel, Pivot Tables, Data Visualization</li>
+                <li><strong>Focus</strong>: Scoring Trends, Efficiency, Win Rates</li>
+              </ul>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </section>
+    <!-- /Portfolio Details Section -->
+  
+  </main>
+  
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Edon Lata</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed using DevFolio template from BootstrapMade
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
