@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>NCAA Basketball Data Analysis - Edon Lata</title>
   <meta name="description" content="NCAA basketball data analysis project by Edon Lata">
-  <meta name="keywords" content="NCAA, basketball, data analysis, SQL, Excel">
+  <meta name="keywords" content="NCAA, basketball, data analysis, Excel, sports analytics">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -30,6 +30,7 @@
 
 <body class="portfolio-details-page">
 
+  <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -41,7 +42,6 @@
         <ul>
           <li><a href="index.html#hero">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
           <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
@@ -50,6 +50,7 @@
 
     </div>
   </header>
+  <!-- End Header -->
 
   <main class="main">
 
@@ -66,120 +67,98 @@
       </div>
     </div>
     <!-- End Page Title -->
-  
+
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
-  
       <div class="container" data-aos="fade-up">
-  
-        <div class="portfolio-details-slider swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": { "delay": 5000 },
-              "slidesPerView": "auto",
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-  
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/ncaa.jpg" alt="Basketball and NCAA court">
-            </div>
-          </div>
-  
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-  
-        <div class="row justify-content-between gy-4 mt-4">
-  
+    
+        <div class="row justify-content-between gy-4">
+    
+          <!-- LEFT SIDE — IMAGE + CONTENT -->
           <div class="col-lg-8" data-aos="fade-up">
+    
+            <img src="assets/img/portfolio/ncaa.jpg" 
+                 alt="NCAA basketball image" 
+                 class="img-fluid mb-4">
+    
             <h2>NCAA Basketball Trends & Team Insights</h2>
             <p>
-              This project looks at NCAA basketball data to understand scoring trends, efficiency,
-              and team performance. The goal was to practice working with sports data and highlight
-              patterns that could matter for coaching or scouting.
+              This project analyzes NCAA basketball team statistics to uncover scoring patterns, 
+              efficiency metrics, and factors that influence team success.
             </p>
-  
+    
             <h3>Steps I Took</h3>
             <ul>
-              <li>Imported game and team statistics into Excel and cleaned column names and data types.</li>
-              <li>Created calculated fields such as points per game, field goal percentage, and win percentage.</li>
-              <li>Built pivot tables to compare teams by conference, season, and offensive/defensive metrics.</li>
-              <li>Used charts to visualize relationships between scoring, shooting efficiency, and wins.</li>
+              <li>Imported team & game stats into Excel.</li>
+              <li>Cleaned data + created fields like PPG, FG%, win rate.</li>
+              <li>Built pivot tables by conference & season.</li>
+              <li>Created charts connecting efficiency with wins.</li>
             </ul>
-  
+    
             <h3>Key Insights</h3>
             <ul>
-              <li>Teams with higher effective field goal percentages generally had stronger win records.</li>
-              <li>Balanced teams (solid offense and defense) performed better than teams relying only on high scoring.</li>
-              <li>Free throws and turnovers often made the difference in close games.</li>
-              <li>Conference strength and schedule difficulty played a role in overall performance.</li>
+              <li>Higher eFG% strongly correlates with win percentage.</li>
+              <li>Balanced offense + defense beats high scoring alone.</li>
+              <li>Free throws & turnovers decide close games.</li>
+              <li>Strength of schedule impacts team success.</li>
             </ul>
-  
+    
             <h3>Tools Used</h3>
-            <p>
-              Excel, pivot tables, calculated fields, and sports analytics concepts.
-            </p>
-  
+            <p>Excel, pivot tables, data visualization.</p>
+    
             <h3>Deliverables</h3>
             <ul>
-              <li>Cleaned NCAA team and game statistics tables.</li>
-              <li>Pivot tables summarizing performance by team and conference.</li>
-              <li>Charts showing how shooting efficiency and defense relate to winning.</li>
-              <li>Presentation summarizing key takeaways for non-technical audiences.</li>
+              <li>Cleaned NCAA datasets</li>
+              <li>Pivot table insights</li>
+              <li>Data visualizations</li>
+              <li>Full presentation deck</li>
             </ul>
-  
-            <a class="btn btn-primary mt-3" href="assets/Projects/Capstone3.pptx" target="_blank">
-              Download Slides (NCAA)
+    
+            <a class="btn btn-primary mt-3" 
+               href="assets/Projects/Capstone3.pptx" 
+               target="_blank">
+               Download Slides (NCAA)
             </a>
+    
           </div>
-  
+    
+          <!-- RIGHT SIDE — PROJECT INFO -->
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
               <h3>Project Information</h3>
               <ul>
                 <li><strong>Category</strong>: Sports Analytics</li>
-                <li><strong>Tools</strong>: Excel, Pivot Tables, Data Visualization</li>
-                <li><strong>Focus</strong>: Scoring Trends, Efficiency, Win Rates</li>
+                <li><strong>Tools</strong>: Excel, Pivot Tables, Visualization</li>
+                <li><strong>Focus</strong>: Scoring Trends & Efficiency</li>
               </ul>
             </div>
           </div>
-  
+    
         </div>
-  
+    
       </div>
-  
     </section>
+    
     <!-- /Portfolio Details Section -->
-  
-  </main>
-  
 
+  </main>
+
+  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer accent-background">
     <div class="container">
-      <div class="copyright text-center ">
+      <div class="copyright text-center">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Edon Lata</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/edon-lata1/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/edonlata" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       <div class="credits">
         Designed using DevFolio template from BootstrapMade
       </div>
     </div>
   </footer>
+  <!-- End Footer -->
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
